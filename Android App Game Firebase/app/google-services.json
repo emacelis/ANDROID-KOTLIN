@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194553436938",
+    "firebase_url": "https://juegoporta-12b93.firebaseio.com",
+    "project_id": "juegoporta-12b93",
+    "storage_bucket": "juegoporta-12b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194553436938:android:d24094b85c0bb260e8f8f3",
+        "android_client_info": {
+          "package_name": "com.ejemplo.insert.database.juegoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194553436938-bt2dubn8guff1numh6iklf1eivip3a6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ejemplo.insert.database.juegoapplication",
+            "certificate_hash": "660cf57ac68b873b0e2f3506439dd9cc18f297f6"
+          }
+        },
+        {
+          "client_id": "194553436938-qskp80a8v6j48gcag4a4qpvei23cu8ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjl8OXNQmbbJCQB9Yrwfx1WtrsRCczzdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194553436938-qskp80a8v6j48gcag4a4qpvei23cu8ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

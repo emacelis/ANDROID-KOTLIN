@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+
+    tools:context=".Ciudades">
+
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Escoje tu ciudad"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"></TextView>
+
+    <Button
+        android:id="@+id/butMX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="Clima de la ciudad de MX"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/butGR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="Clima de la ciudad de Alemania"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

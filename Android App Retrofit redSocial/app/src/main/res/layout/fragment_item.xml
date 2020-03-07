@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagenAvatar"
+            android:layout_width="40dp"
+            android:padding="3dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/accountdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:text="USERNAME"
+            app:layout_constraintStart_toEndOf="@+id/imagenAvatar"
+            app:layout_constraintTop_toTopOf="@+id/imagenAvatar">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Mensaje"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imagenAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/UserName"></TextView>
+
+        <ImageView
+            android:id="@+id/likeTweet"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@+id/imagenAvatar"
+            app:layout_constraintTop_toBottomOf="@+id/tvMessage"
+            app:srcCompat="@drawable/ic_like_black"></ImageView>
+
+        <TextView
+            android:id="@+id/txLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Numero de likes"
+            android:textSize="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/likeTweet"
+            app:layout_constraintStart_toEndOf="@+id/likeTweet"
+            app:layout_constraintTop_toTopOf="@+id/likeTweet"
+            ></TextView>
+
+    <ImageView
+        android:id="@+id/imageViewshowMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/UserName"
+        app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+    <View
+            android:id="@+id/divider"
+            android:layout_width="409dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#DDDDDD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/likeTweet" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

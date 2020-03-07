@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852161482243",
+    "firebase_url": "https://emma-appnotes.firebaseio.com",
+    "project_id": "emma-appnotes",
+    "storage_bucket": "emma-appnotes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852161482243:android:b771bac3948a7b5e3b8836",
+        "android_client_info": {
+          "package_name": "com.realstatey.emmateamappnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852161482243-a37ocgiidnvf622f3av64j883apu5rhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.realstatey.emmateamappnotes",
+            "certificate_hash": "660cf57ac68b873b0e2f3506439dd9cc18f297f6"
+          }
+        },
+        {
+          "client_id": "852161482243-ns5rshfspdjsa08eu9tdeg1t634o7mcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4vnsGHBvF4yogDGSd43pQKHuY8Nloovs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852161482243-ns5rshfspdjsa08eu9tdeg1t634o7mcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
